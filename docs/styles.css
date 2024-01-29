@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#matches {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.match-container{
+	border:10px;
+	
+}
+.match {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.match:last-child {
+    border-bottom: none;
+}
+
+.team {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.date {
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #matches {
+        width: 95%;
+    }
+}
